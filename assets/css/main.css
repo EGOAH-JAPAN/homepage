@@ -72,6 +72,40 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* info-table */
+#info-table tr {
+	text-align: left;
+	border-bottom: 1px solid #b5b1b1;
+  }
+  
+  #info-table th,
+  #info-table td {
+	padding: 24px 0;
+	border: none;
+  }
+  
+  #info-table th {
+	width: 30%;
+  }
+  
+  /* sp */
+  @media only screen and (max-width: 480px) {
+	#info-table th,
+	#info-table td {
+	  width: 100%;
+	  display: block;
+	}
+  
+	#info-table th {
+	  width: 100%;
+	}
+  
+	#info-table td {
+	  padding-top: 0;
+	}
+  }
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -125,7 +159,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Meiryo", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -2773,9 +2807,9 @@ input, select, textarea {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
-		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(255, 255, 255, 0.075);
-		}
+		/* table tbody tr:nth-child(2n + 1) {
+			background-color: rgb(199, 156, 200);
+		} */
 
 	table th {
 		color: #ffffff;
@@ -3557,9 +3591,9 @@ input, select, textarea {
 			border-color: #dddddd;
 		}
 
-			#main table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(222, 222, 222, 0.25);
-			}
+			/* #main table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(199, 156, 200, 0.25)				;
+			} */
 
 		#main table th {
 			color: #636363;
