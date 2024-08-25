@@ -3370,7 +3370,7 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 200px) {
 
 			#nav {
 				display: none;
