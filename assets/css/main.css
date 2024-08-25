@@ -2348,6 +2348,11 @@ input, select, textarea {
 		.icon.style5 {
 			color: #8cc9f0;
 		}
+		.icon.style6 {
+			color: #e6bf85;
+		}
+		.icon.style7 {
+			color: #a2e0a5;		}
 
 		@media screen and (max-width: 1680px) {
 
