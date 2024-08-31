@@ -11,7 +11,7 @@
 			const userPreferredLanguage = localStorage.getItem('preferredLanguage');
 			if (userPreferredLanguage) {
 				// Redirect to the user's preferred language page
-				window.location.href = userPreferredLanguage === 'ja' ? 'jap' : 'eng';
+				window.location.href = userPreferredLanguage === 'ja' ? 'jap.html' : 'eng.html';
 				return;
 			}
 
@@ -19,9 +19,9 @@
 			const userLang = navigator.language || navigator.userLanguage;
 
 			// Determine the redirect URL based on the browser language
-			let redirectUrl = 'eng'; // Default to English
+			let redirectUrl = 'eng.html'; // Default to English
 			if (userLang.startsWith('ja')) {
-				redirectUrl = 'jap';
+				redirectUrl = 'jap.html';
 			}
 
 			// Redirect the user to the appropriate page
