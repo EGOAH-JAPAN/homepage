@@ -180,7 +180,10 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
+    <script>
+        // Set preferredLanguage cache to "eng" when user opens the site
+        localStorage.setItem("preferredLanguage", "eng");
+    </script>
 </body>
 
 </html>

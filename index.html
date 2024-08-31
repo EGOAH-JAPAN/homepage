@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language Redirect</title>
-    <script>
-        function redirectToLanguagePage() {
-            // Check if the user has a preferred language set in local storage
-            const userPreferredLanguage = localStorage.getItem('preferredLanguage');
-            if (userPreferredLanguage) {
-                // Redirect to the user's preferred language page
-                window.location.href = userPreferredLanguage === 'ja' ? 'jap' : 'eng';
-                return;
-            }
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Language Redirect</title>
+	<script>
+		function redirectToLanguagePage() {
+			// Check if the user has a preferred language set in local storage
+			const userPreferredLanguage = localStorage.getItem('preferredLanguage');
+			if (userPreferredLanguage) {
+				// Redirect to the user's preferred language page
+				window.location.href = userPreferredLanguage === 'ja' ? 'jap' : 'eng';
+				return;
+			}
 
-            // Get the user's browser language
-            const userLang = navigator.language || navigator.userLanguage;
+			// Get the user's browser language
+			const userLang = navigator.language || navigator.userLanguage;
 
-            // Determine the redirect URL based on the browser language
-            let redirectUrl = 'eng'; // Default to English
-            if (userLang.startsWith('ja')) {
-                redirectUrl = 'jap';
-            }
+			// Determine the redirect URL based on the browser language
+			let redirectUrl = 'eng'; // Default to English
+			if (userLang.startsWith('ja')) {
+				redirectUrl = 'jap';
+			}
 
-            // Redirect the user to the appropriate page
-            window.location.href = redirectUrl;
-        }
+			// Redirect the user to the appropriate page
+			window.location.href = redirectUrl;
+		}
 
-        // Call the redirect function when the page loads
-        redirectToLanguagePage();
-    </script>
+		// Call the redirect function when the page loads
+		redirectToLanguagePage();
+	</script>
 </head>
+
 <body>
 </body>
+
 </html>
