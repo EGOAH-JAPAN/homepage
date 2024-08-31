@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<!--
+    Stellar by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-43FR5XN5DJ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-43FR5XN5DJ');
+	</script>
+	<title>EGOAH</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+            <h1>EGOAH</h1>
+            <p>Egoah LLC</p>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#company_info">Company Information</a></li>
+                <!-- <li><a href="#intro" class="active">About Egoah</a></li> -->
+                <li><a href="#services">Services</a></li>
+                <!-- <li><a href="#faq">FAQ</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+				<li><a href="jap"><i class="fas fa-globe"></i> 日本語</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+            <section id="company_info" class="main special">
+                <header class="major">
+                    <h2>Company Information</h2>
+                </header>
+                <table id="info-table">
+                    <tr>
+                        <th>Company Name</th>
+                        <td>Egoah LLC (Japanese: 合同会社Egoah)</td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td>〒190-0033, 6-18-11 Ichibancho, Tachikawa City, Tokyo</td>
+                    </tr>
+                    <tr>
+                        <th>Phone Number</th>
+                        <td>(+81) 42-569-6695</td>
+                    </tr>
+                    <tr>
+                        <th>FAX</th>
+                        <td>(+81) 42-569-6696</td>
+                    </tr>
+                    <tr>
+                        <th>Established</th>
+                        <td>May 10, 2018</td>
+                    </tr>
+                    <tr>
+                        <th>Representative</th>
+                        <td>Eiji Morikawa</td>
+                    </tr>
+                    <tr>
+                        <th>Capital</th>
+                        <td>3 million yen</td>
+                    </tr>
+                </table>
+                <div>
+                    <h3>Licenses</h3>
+                    <h4>Construction Business License</h4>
+                    <span>Tokyo Governor, Permit (General-5) No. 157977</span><br>
+                    <span style="font-size: smaller;">Building construction, Carpentry work, Plastering, Scaffolding, Masonry work, Roofing work</span><br>
+                    <span style="font-size: smaller;">Piping work, Tile/brick/block work, Steel structure work, Reinforcing bar work</span><br>
+                    <span style="font-size: smaller;">Sheet metal work, Glass work, Painting work, Waterproofing work, Interior finishing work</span><br>
+                    <span style="font-size: smaller;">Thermal insulation work, Joinery work, Demolition work</span><br>
+                </div>
+
+            </section>
+            <section id="services" class="main special">
+                <header class="major">
+                    <h2>Services</h2>
+                </header>
+                <ul class="features">
+                    <li>
+                        <span class="icon major style5 fa-building"></span>
+                        <h3>Real Estate</h3>
+                        <p>Real estate ownership and management</p>
+                    </li>
+                    <li>
+                        <span class="icon solid major style2 fa-paint-roller"></span>
+                        <h3>Construction</h3>
+                        <p>Interior and exterior work, HVAC and sanitation facilities</p>
+                    </li>
+                    <li>
+                        <span class="icon solid major style1 fa-tools"></span>
+                        <h3>Building Management</h3>
+                        <p>Building inspections, Sanitation maintenance, Fire prevention equipment inspections</p>
+                    </li>
+                    <li>
+                        <span class="icon solid major style4 fa-shopping-cart"></span>
+                        <h3>Retail</h3>
+                        <p>Sales of construction materials, HVAC and sanitation equipment, housing equipment</p>
+                    </li>
+                    <li>
+                        <span class="icon solid major style6 fa-globe"></span>
+                        <h3>Marketing</h3>
+                        <p>Planning and implementation of marketing strategies</p>
+                    </li>
+                    <li>
+                        <span class="icon solid major style7 fa-code"></span>
+                        <h3>System Development</h3>
+                        <p>Planning, development, and operation of business management systems</p>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section id="contact">
+                <h2>Contact Form</h2>
+                <!-- <form action="https://formsubmit.co/g.rapnal@gmail.com" method="POST"> -->
+                <form action="https://formspree.io/f/mldrakgn" method="POST">
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email Address</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div class="field half">
+                            <label for="tel">Phone Number</label>
+                            <input type="tel" name="tel" id="tel" pattern="\+?[0-9]*" maxlength="15">
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions" style="margin-top: 10px;">
+                        <li><input type="submit" value="Submit"></li>
+                        <li><input type="reset" value="Clear"></li>
+                    </ul>
+                </form>
+            </section>
+            <p class="copyright">&copy; 2024 Egoah LLC. Template by <a href="https://html5up.net">HTML5 UP</a>,
+                licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
+                    License</a>.</p>
+            <a href="policy" class="button">Privacy Policy</a>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Set preferredLanguage cache to "eng" when user opens the site
+        localStorage.setItem("preferredLanguage", "eng");
+    </script>
+</body>
+
+</html>
