@@ -22,41 +22,6 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
-	<script>
-		function redirectToLanguagePage() {
-			// Check if the user has a preferred language set in local storage
-			const userPreferredLanguage = localStorage.getItem('preferredLanguage');
-			if (userPreferredLanguage) {
-				// Redirect to the user's preferred language page
-				window.location.href = userPreferredLanguage === 'ja' ? '/ja/' : '/en/';
-				return;
-			}
-	
-			// Get the user's browser language
-			const userLang = navigator.language || navigator.userLanguage;
-	
-			// Determine the redirect URL based on the browser language
-			let redirectUrl = '/en/'; // Default to English
-			if (userLang.startsWith('ja')) {
-				redirectUrl = '/ja/';
-			}
-	
-			// Redirect the user to the appropriate page
-			window.location.href = redirectUrl;
-		}
-	
-		// Function to switch language manually
-		function switchLanguage(language) {
-			// Save the user's preferred language in local storage
-			localStorage.setItem('preferredLanguage', language);
-	
-			// Redirect to the selected language page
-			window.location.href = language === 'ja' ? '/ja/' : '/en/';
-		}
-	
-		// Call the redirect function when the page loads
-		redirectToLanguagePage();
-	</script>
 	</head>
 
 <body class="is-preload">
@@ -79,6 +44,7 @@
 				<li><a href="#services">事業内容</a></li>
 				<!-- <li><a href="#faq">FAQ</a></li> -->
 				<li><a href="#contact">お問い合わせ</a></li>
+				<li><a href="eng"><i class="fas fa-globe"></i> English</a></li>
 			</ul>
 		</nav>
 
@@ -210,7 +176,7 @@
 			<p class="copyright">&copy; 2024 Egoah LLC. Template by <a href="https://html5up.net">HTML5 UP</a>,
 				licensed under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0
 					License</a>.</p>
-					<a href="policy.html" class="button">プライバシーポリシー</a>
+					<a href="policy" class="button">プライバシーポリシー</a>
 				</footer>
 			</div>
 
